@@ -36,25 +36,25 @@ body{
 	background-color: black;
 }
 .vertical_div:nth-child(1){
-	background-color: #ddd;
+	
 	background-image: url(img/joker1.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 .vertical_div:nth-child(2){
-	background-color: #ccc;
+	
 	background-image: url(img/hulk1.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 .vertical_div:nth-child(3){
-	background-color: #bbb;
+	
 	background-image: url(img/captain.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 .vertical_div:nth-child(4){
-	background-color: #aaa;
+	
 	float: right;
 	background-image: url(img/loki.jpg);
 	background-repeat: no-repeat;
@@ -62,7 +62,7 @@ body{
 	
 }
 .vertical_div:nth-child(5){
-	background-color: #999;
+	
 	float: right;
 	background-image: url(img/ironman1.jpg);
 	background-repeat: no-repeat;
