@@ -12,4 +12,34 @@ $(document).ready(function(){
 		$(".description").slideUp("fast");
 	});
 	
+	//form
+	$("#elementname").hide();
+	$("#elementc_password").hide();
+	$("#elementphone").hide();
+	$("#elementroll").hide();
+	$("#elementdep").hide();
+	$("#elementbatch").hide();
+	$("#loginalert").hide();
+	$("#registerbutton").click(function(){
+		$("#elementname").slideDown();
+		$("#elementc_password").slideDown();
+		$("#elementphone").slideDown();
+		$("#elementroll").slideDown();
+		$("#elementdep").slideDown();
+		$("#elementbatch").slideDown();
+		$("#lineModalLabel").text("Sign Up");
+		$("#registeralert").hide();
+		$("#loginalert").show();
+	});
+	$("#loginbutton").click(function(){
+		$("#elementname").slideUp();
+		$("#elementc_password").slideUp();
+		$("#elementphone").slideUp();
+		$("#elementroll").slideUp();
+		$("#elementdep").slideUp();
+		$("#elementbatch").slideUp();
+		$("#lineModalLabel").text("Sign In");
+		$("#registeralert").show();
+		$("#loginalert").hide();
+	});
 });
