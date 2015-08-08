@@ -9,6 +9,8 @@ body{
 	width: 20%;
 	float: left;
 	height: 100%;
+	-webkit-filter:grayscale(100%);
+	filter:grayscale(100%);
 }
 .pixel-overlay{
 	margin: 0px;
@@ -69,23 +71,30 @@ body{
 .inner_container{
       display: table;
 	  overflow: hidden;
-	  width: 50%;
+	  width: 100%;
 	  height: 100%;
-	margin: 0px auto;
+	  margin: 0px auto;
 	  text-align: center;
 }
 .content{
 	display: table-cell;
 	max-width: 75%;
-  	vertical-align:middle;
+  	vertical-align:bottom;
 }
-h2{
+.h2
+{
+	background-color: #eb0d0d;
+	margin:0px auto;
+	width: 50%;
+	margin-bottom: 20px;
 	font-family: 'Marvel',sans-serif;
 	text-transform: uppercase;
 	color: white;
+	font-size: 160%;
+	padding: 5px 0px;
 }
-img.vertical_div { width:367; height:459px; -webkit-filter: blur(3px); filter: blur(3px); }
-h2
-{
-	background-color: #eb0d0d;
+.description{
+	font-family: 'Raleway',sans-serif;
+	color: white;
+	padding: 0px 20px;
 }
