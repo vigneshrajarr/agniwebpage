@@ -1,0 +1,91 @@
+html, body, #container {
+    height: 100%;
+}
+body{
+	margin: 0px;
+	font-family: sans-serif;
+}
+.vertical_div{
+	width: 20%;
+	float: left;
+	height: 100%;
+}
+.pixel-overlay{
+	margin: 0px;
+	position: absolute;
+	height: calc(100% - 75px);
+	width: 20%;
+	background-image: url(img/pattern.png);
+	background-repeat: repeat;
+	opacity: 1;
+	background-color: rgba(0,0,0,0.4);
+	transition: opacity 0.8s;
+	cursor: pointer;
+}
+.pixel-overlay:hover{
+	opacity: 0;
+}
+#main_nav{
+	margin: 0px;
+	height: calc(100% - 75px);
+}
+#bottom_bar{
+	height: 75px;
+	background-color: black;
+}
+.vertical_div:nth-child(1){
+	background-color: #ddd;
+	background-image: url(img/joker1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.vertical_div:nth-child(2){
+	background-color: #ccc;
+	background-image: url(img/hulk1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.vertical_div:nth-child(3){
+	background-color: #bbb;
+	background-image: url(img/captain.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.vertical_div:nth-child(4){
+	background-color: #aaa;
+	float: right;
+	background-image: url(img/loki.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+.vertical_div:nth-child(5){
+	background-color: #999;
+	float: right;
+	background-image: url(img/ironman1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.inner_container{
+      display: table;
+	  overflow: hidden;
+	  width: 50%;
+	  height: 100%;
+	margin: 0px auto;
+	  text-align: center;
+}
+.content{
+	display: table-cell;
+	max-width: 75%;
+  	vertical-align:middle;
+}
+h2{
+	font-family: 'Marvel',sans-serif;
+	text-transform: uppercase;
+	color: white;
+}
+img.vertical_div { width:367; height:459px; -webkit-filter: blur(3px); filter: blur(3px); }
+h2
+{
+	background-color: #eb0d0d;
+}
