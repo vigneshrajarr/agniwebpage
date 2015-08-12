@@ -42,4 +42,12 @@ $(document).ready(function(){
 		$("#registeralert").show();
 		$("#loginalert").hide();
 	});
+	$(".vertical_div").click(function() {
+		$("#popup").show();
+		$("#popup").animate({
+			height:"100%",
+			width:"100%",
+			opacity:"1",
+		},400);
+	});
 });
